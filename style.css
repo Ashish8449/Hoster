@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #f8f4e8;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    
+    
+   
+}
+
+p{
+    color: #87827a;
+    
+}
+.nav-link {
+    color: #87827a;
+}
+.nav-link:hover {
+    color: black;
+}
+.hero{
+    z-index: 5 !important;
+
+}
+.bluebutton{
+    background: rgb(73,118,233) !important;
+    color: white !important;
+    width: inherit !important;
+    border: 2px solid rgb(73,118,233) !important;
+    /* font-weight: bold !important; */
+    border-radius: 10px;
+}
+.bluebutton:hover{
+    color: rgb(73,118,233) !important;
+    background: white !important;
+    
+}
+
+
+div.relative {
+    position: relative;
+  
+    height: inherit;
+    /* border: 25px solid #2146ad; */
+    /* z-index: 10; */
+    /* background-color: white; */
+  } 
+  .relative img{
+      display: block;
+  }
+  
+  .absolute {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 100%;
+    height: 100;
+    /* background: red; */
+    background: transparent;
+  
+    /* z-index: 5; */
+  }
+  .imgsize{
+      z-index:-1 ;
+      background: transparent;
+  }
+  .img-fluid{
+      height: inherit !important;
+  }
+  .purpuleimg{
+      background: transparent;
+      /* z-index: 30; */
+      /* transform: rotate(-10deg); */
+      transform: rotate(
+324deg);
+
+
+  }
+  .blueimg{
+      background: transparent;
+      transform: rotate(
+        332deg);
+      /* z-index: 10; */
+  }
+  .pinkimg{
+      background: transparent;
+      /* transform: rotate(20deg); */
+      transform: rotate(
+        342deg);
+      z-index: 5;
+  }
+  .heroimg{
+      z-index: 10;
+      background: transparent;
+  }
+  .imgbox{
+      z-index: -1;
+  }
+
+.hiring{
+    background: linear-gradient(to right, #e79908, #e43d0a);
+    border-radius: 20px;
+}
+.navbar-brand button{
+    border-radius: 20px;
+}
+.fs8{
+    font-size: 12px !important;
+}
+.fw-bold{
+    font-weight: 500!important;
+}
+
+.relative img{
+    object-fit: contain;
+}
+footer li a{
+    list-style: none;
+    text-decoration: none;
+    color: #87827a;
+    font-weight: 500;
+}
+footer li a:hover{
+   color: black;
+}
+.question:hover, .ans:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width:450px) {
+   .orangebox{
+       display: none;
+   }
+    
+}
